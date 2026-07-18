@@ -7,7 +7,7 @@ metadata:
     environment: dev
     purpose: pod
 spec:
-  container:
+  containers:
   - name: nginx #name of conatiner
     image: nginx
 
