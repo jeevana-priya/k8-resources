@@ -5,7 +5,7 @@ metadata:
   labels:
     project: roboshop
     environment: dev
-    purpose: pod
+    purpose: poc
 spec:
   containers:
   - name: nginx #name of conatiner
