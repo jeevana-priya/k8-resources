@@ -1,5 +1,5 @@
 appVersion: v1
-kind: pod
+kind: Pod
 metadata:
   name: multi-container
   labels:
@@ -10,3 +10,4 @@ spec:
     image: nginx
   - name: almalinux
     image: almalinux
+    command: ["sleep","20"]
