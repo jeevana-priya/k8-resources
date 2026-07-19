@@ -4,6 +4,10 @@ metadata:
   name: labels
   labels:
     project: roboshop
+spec:
+  containers:
+  - name: nginx
+    image: nginx
 
 
 

@@ -7,3 +7,7 @@ metadata:
   annotaions:
     imageregistry: "https://hub.docker.com/"
     jenkins-build-url: "https://jeniks"
+spec:
+  containers:
+  - name: nginx
+    image: nginx
